@@ -1,0 +1,130 @@
+body {
+  margin-top: 20px;
+}
+
+.deneb_footer .widget_wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 70px;
+  background-color: #fff0f0;
+}
+
+@media (max-width: 767px) {
+  .deneb_footer .widget_wrapper .widget {
+    margin-bottom: 40px;
+  }
+}
+
+.deneb_footer .widget_wrapper .widget .widget_title {
+  margin-bottom: 30px;
+}
+
+.deneb_footer .widget_wrapper .widget .widget_title h4 {
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 8px;
+  color: #8f0000;
+}
+
+.deneb_footer .widget_wrapper .widget .widget_title h4:after {
+  content: "";
+  display: block;
+  max-width: 38px;
+  height: 2px;
+  margin-top: 5px;
+  background-color: #b30000;
+  border-radius: 2px;
+}
+
+.deneb_footer .widget_wrapper .widget_about p {
+  margin-bottom: 20px;
+  color: #5a5a5a;
+}
+
+.deneb_footer .widget_wrapper .widget_about .social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.deneb_footer .widget_wrapper .widget_about .social li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f8d3d3;
+  color: #b30000;
+  font-size: 14px;
+  transition: all 0.5s ease-out;
+}
+
+.deneb_footer .widget_wrapper .widget_about .social li a:hover,
+.deneb_footer .widget_wrapper .widget_about .social li a:focus {
+  background: linear-gradient(0deg, #b30000 0%, #8f0000 100%);
+  color: #fff;
+  box-shadow: 2.5px 4.33px 15px rgba(179, 0, 0, 0.4);
+}
+
+.deneb_footer .widget_wrapper .widget_link ul li {
+  margin-bottom: 5px;
+}
+
+.deneb_footer .widget_wrapper .widget_link ul li a {
+  text-transform: capitalize;
+  color: #7a808d;
+  transition: color 0.3s ease;
+}
+
+.deneb_footer .widget_wrapper .widget_link ul li a:hover,
+.deneb_footer .widget_wrapper .widget_link ul li a:focus {
+  color: #b30000;
+}
+
+.deneb_footer .widget_wrapper .widget_contact .contact_info .single_info {
+  max-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
+  font-size: 16px;
+  color: #b30000;
+  margin-right: 10px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
+  color: #7a808d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a:hover,
+.deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a:focus {
+  color: #b30000;
+}
+
+.deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
+  display: block;
+}
+
+.deneb_footer .copyright_area {
+  background: #f3dede;
+  padding: 10px 0;
+}
+
+.deneb_footer .copyright_area .copyright_text {
+  text-align: center;
+}
+
+.deneb_footer .copyright_area .copyright_text p {
+  color: #3c1e1e;
+}
+
+.deneb_footer .copyright_area .copyright_text p span {
+  color: #b30000;
+}

@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+
+
+<section class="light">
+  <div class="container py-2">
+    <div class="h1 text-center text-dark" id="pageHeaderTitle">Investigacion & Vinculación</div>
+
+    <article *ngFor="let proyecto of proyectos" class="postcard light {{ proyecto.color }}">
+      <img class="postcard__img" [src]="proyecto.imagen" [alt]="proyecto.titulo" />
+      <div class="postcard__text t-dark">
+        <h1 class="postcard__title {{ proyecto.color }}">{{ proyecto.titulo }}</h1>
+        <div class="postcard__subtitle small">
+          <time [attr.datetime]="proyecto.fechaISO">
+            <i class="fas fa-calendar-alt mr-2"></i>{{ proyecto.fecha }}
+          </time>
+        </div>
+        <div class="postcard__bar"></div>
+        <div class="postcard__preview-txt">{{ proyecto.descripcion }}</div>
+        <ul class="postcard__tagbox">
+          <li class="tag__item"><i class="fas fa-tag mr-2"></i>{{ proyecto.etiqueta }}</li>
+          <li class="tag__item"><i class="fas fa-clock mr-2"></i>{{ proyecto.tipo }}</li>
+          <li class="tag__item play blue">
+            <a href="#"><i class="fas fa-play mr-2"></i>Mas Información</a>
+          </li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<app-footer></app-footer>
